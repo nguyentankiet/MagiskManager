@@ -1,9 +1,12 @@
 <resources>
     <!--Universal-->
+    <string name="app_name" translatable="false">Quản lý Magisk</string>
+    <string name="magisk" translatable="false">Magisk</string>
 
     <!--Welcome Activity-->
     <string name="navigation_drawer_open">Mở thanh điều hướng</string>
     <string name="navigation_drawer_close">Đóng thanh điều hướng</string>
+    <string name="magiskhide" translatable="false">Ẩn Magisk</string>
     <string name="modules">Mô-đun</string>
     <string name="downloads">Tải xuống</string>
     <string name="superuser">Superuser</string>
@@ -14,6 +17,7 @@
 
     <!--Status Fragment-->
     <string name="magisk_version">Đã cài Magisk v%1$s</string>
+    <string name="magisk_version_core_only">Đã cài Magisk v%1$s (Chế độ chỉ lõi Magisk)</string>
     <string name="magisk_version_error">Magisk chưa được cài đặt</string>
 
     <string name="checking_for_updates">Đang kiểm tra cập nhật…</string>
@@ -27,10 +31,10 @@
     <string name="checking_safetyNet_status">Đang kiểm tra trạng thái SafetyNet…</string>
     <string name="safetyNet_connection_failed">Không thể kết nối với API của Google</string>
     <string name="safetyNet_connection_suspended">Kết nối với API của Google đã dừng</string>
-    <string name="safetyNet_error">Không thể kiểm tra SafetyNet, không có Internet?</string>
+    <string name="safetyNet_error">Không thể kiểm tra SafetyNet, không có kết nối mạng?</string>
     <string name="safetyNet_fail">SafetyNet thất bại: cấu hình CTS không phù hợp</string>
     <string name="safetyNet_pass">SafetyNet thành công</string>
-    <string name="root_info_warning">Tính năng bị hạn chế rất nhiều</string>
+    <string name="root_info_warning">Tính năng bị hạn chế</string>
 
     <!--Install Fragment-->
     <string name="auto_detect">(Tự động) %1$s</string>
@@ -77,7 +81,7 @@
     <string name="app_developers">Nhà phát triển chính</string>
     <string name="app_developers_"><![CDATA[Ứng dụng do <a href="https://github.com/topjohnwu">topjohnwu</a> viết, phối hợp với <a href="https://github.com/d8ahazard">Digitalhigh</a> và <a href="https://github.com/dvdandroid">Dvdandroid</a>.]]></string>
     <string name="app_changelog">Nhật ký thay đổi của ứng dụng</string>
-    <string name="translators"><![CDATA[<a href="https://github.com/thanhtai2009">thanhtai2009@tekcafe.vn</a>]]></string>
+    <string name="translators"><![CDATA[<a href="https://github.com/nguyentankiet">butbi0103@gmail.com</a>]]></string>
     <string name="app_version">Phiên bản ứng dụng</string>
     <string name="app_source_code">Mã nguồn</string>
     <string name="donation">Ủng hộ</string>
@@ -88,7 +92,7 @@
     <string name="permissionNotGranted">Tính năng này không hoạt động nếu thiếu quyền ghi vào bộ nhớ ngoài.</string>
     <string name="no_thanks">Không, cảm ơn</string>
     <string name="yes">Có</string>
-    <string name="ok">OK</string>
+    <string name="ok">Đồng ý</string>
     <string name="close">Đóng</string>
     <string name="repo_install_title">Cài đặt %1$s</string>
     <string name="repo_install_msg">Bạn muốn cài đặt %1$s ?</string>
@@ -97,7 +101,7 @@
     <string name="goto_install">Mở phần \"Cài đặt\"</string>
     <string name="download_file_error">Lỗi tải tập tin</string>
     <string name="install_error">Lỗi cài đặt!</string>
-    <string name="invalid_zip">Tập tin zip không phải mô-đun Magisk!!</string>
+    <string name="invalid_zip">Tập tin này không phải mô-đun Magisk!!</string>
     <string name="reboot_title">Cài đặt thành công!</string>
     <string name="reboot_msg">Bạn muốn khởi động lại ngay chứ?</string>
     <string name="reboot">Khởi động lại</string>
@@ -114,11 +118,11 @@
     <string name="release_notes">Ghi chú phát hành</string>
     <string name="repo_cache_cleared">Đã xoá bộ đệm kho</string>
     <string name="safetyNet_hide_notice">Ứng dụng này dùng SafetyNet\nĐã được MagiskHide xử lý theo mặc định</string>
-    <string name="start_magiskhide">Đang khởi động MagiskHide …</string>
+    <string name="start_magiskhide">Đang ẩn Magisk …</string>
     <string name="no_magisksu_title">Không dùng MagiskSU!</string>
-    <string name="no_magisksu_msg">Bạn không root với MagiskSU, sử dụng mỗi MagiskHide có thể sẽ không đủ hiệu quả!\nViệc này không được hỗ trợ chính thức và có thể bạn cần thêm công cụ khác (suhide chẳng hạn) để vượt Safety Net.</string>
+    <string name="no_magisksu_msg">Bạn không root với MagiskSU, sử dụng mỗi MagiskHide có thể sẽ không đủ hiệu quả!\nViệc này không được hỗ trợ chính thức và có thể bạn cần thêm công cụ khác (suhide chẳng hạn) để vượt qua Safety Net.</string>
     <string name="understand">Tôi hiểu</string>
-    <string name="process_error">Lỗi xử lý</string>
+    <string name="process_error">Xử lý bị lỗi</string>
     <string name="internal_storage">Tập tin zip được lưu vào:\n[Bộ nhớ trong]%1$s</string>
     <string name="zip_process_title">Đang xử lý</string>
     <string name="manual_boot_image">Hãy tự chọn một ảnh khởi động!</string>
@@ -132,6 +136,8 @@
     <string name="settings_clear_cache_title">Xoá bộ đệm kho</string>
     <string name="settings_clear_cache_summary">Xoá thông tin truy cập nhật về các kho mô-đun, buộc ứng dụng làm mới trực tuyến</string>
 
+    <string name="settings_core_only_title">Chế độ chỉ lõi Magisk</string>
+    <string name="settings_core_only_summary">Khi bật chế độ chỉ lõi Magisk, tất cả Mô-đun sẽ không được nạp. Trừ MagiskSU, MagiskHide, systemless hosts, và busybox vẫn sẽ bật</string>
     <string name="settings_magiskhide_summary">Ẩn Magisk khỏi nhiều phương thức phát hiện</string>
     <string name="settings_busybox_title">Dùng BusyBox</string>
     <string name="settings_busybox_summary">Gắn kết busy có sẵn của Magisk tới xbin</string>
@@ -160,7 +166,7 @@
 
     <!--Superuser-->
     <string name="su_request_title">Yêu cầu Superuser</string>
-    <string name="deny_with_str">Từ chối%1$s</string>
+    <string name="deny_with_str">Từ chối %1$s</string>
     <string name="deny">Từ chối</string>
     <string name="prompt">Nhắc nhở</string>
     <string name="grant">Cấp phép</string>
@@ -181,7 +187,7 @@
     <string name="su_snack_log_on">Ghi nhận của %1$s đã được kích hoạt</string>
     <string name="su_snack_log_off">Ghi nhận của %1$s đã bị vô hiệu</string>
     <string name="su_snack_revoke">Quyền của %1$s đã được thu hồi</string>
-    <string name="su_revoke_title">Thu hồi?</string>
+    <string name="su_revoke_title">Thu hồi quyền?</string>
     <string name="su_revoke_msg">Xác nhận thu hồi quyền của %1$s?</string>
     <string name="toast">Thông báo ngắn</string>
     <string name="none">Không có</string>
